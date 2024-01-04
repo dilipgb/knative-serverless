@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-        - image: moficodes/bee-ui:v0.0.8
+        - image: quay.io/dbhagava/ui:v1
           env:
             - name: DESTINATION_URL
-              value: http://destination-kn.default.svc.cluster.local
+              value: http://destination-kn.test-namespace.svc.cluster.local

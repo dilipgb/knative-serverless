@@ -8,7 +8,7 @@ spec:
   template:
     spec:
       containers:
-        - image: moficodes/destination:v0.0.2
+        - image: quay.io/dbhagava/destination:v1
           env:
             - name: HOST_IP
               value: destination

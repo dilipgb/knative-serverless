@@ -55,7 +55,7 @@ class Home extends React.Component {
                   fill="rgb(247, 175, 187)"
                   d="M95.000,0.000 C147.467,0.000 190.000,42.533 190.000,95.000 C190.000,147.467 147.467,190.000 95.000,190.000 C42.533,190.000 0.000,147.467 0.000,95.000 C0.000,42.533 42.533,0.000 95.000,0.000 Z"
                 />
-              </svg>Bee Travels</div>
+              </svg>IBM Bee Travels</div>
             <Autosuggest
               suggestions={this.props.state.suggestions}
               onSuggestionsFetchRequested={this.props.onSuggestionsFetchRequested}
